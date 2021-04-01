@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Aplikacja</title>
+	<meta name="description" content="aplikacja">
+	<meta name="keywords" content="aplikacja">
+	<meta name="author" content="Jan Kowalski">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="wydatek.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+
+
+	
+		
+			<header>
+			
+				<nav class = "navbar navbar-dark bg-primary navbar-expand-lg">  
+			
+					<a class = "navbar-brand" href = "menuGlowne.html"><img src ="img/wallet1.png" width = "30" height = "30" class = "d-inline-block mr-1 align-bottom" alt = "" ></a>
+				
+					
+					
+					<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#mainmenu">
+						<span class = "navbar-toggler-icon"></span>
+					</button>
+					
+					
+					
+					<div class ="collapse navbar-collapse" id = "mainmenu">
+						<ul class = "navbar-nav">
+						
+							<li class = "nav-item">
+							
+								<a class = "nav-link" href ="menuGlowne.html">Start</a>
+							
+							</li>
+							
+							
+							<li class = "nav-item">
+							
+								<a class = "nav-link" href ="przychod.html">Dodaj Przychód</a>
+							
+							</li>
+							
+							<li class = "nav-item active">
+							
+								<a class = "nav-link" href ="wydatek.html">Dodaj Wydatek</a>
+							
+							</li>
+							
+							<li class = "nav-item">
+							
+								<a class = "nav-link" href ="bilans.html">Bilans</a>
+							
+							</li>
+							
+							
+							<li class = "nav-item">
+							
+								<a class = "nav-link" href ="ustawienia.html">Ustawienia</a>
+							
+							</li>
+							
+							
+							<li class = "nav-item">
+							
+								<a class = "nav-link" href ="#">Wyloguj</a>
+							
+							</li>
+							
+						
+						</ul>
+					</div>
+			
+					
+				</nav>
+			
+			</header>
+			
+			<main>
+			
+				<section class = "mainbox">
+				
+					<div class = "container">
+					
+						<div class = "row">
+						
+							<div class = "col-lg-4 offset-lg-2 mt">
+							
+								<div class = "money">
+						
+									<div>
+										<input type = "number" step = "1" min = "0" required>
+									</div>
+							
+								</div>
+							</div>
+							
+							
+							<div class = "col-lg-4 mt">
+							
+								<div class = "date">
+							
+									<input type = "date" placeholder="Data">
+									
+								</div>
+							
+							</div>
+							
+							
+							<div class = "col-lg-3 mt-50 offset-lg-1">
+								
+								<div class = "platnosc">
+							
+									
+									<fieldset>
+									
+										<legend>Metoda Płatności</legend>
+										<div style = "text-align:center;">
+										
+											<label>Cash<input type = "radio" name = "payment"></label>
+											<label>Credit Card<input type = "radio" name = "payment" checked></label>
+											<label>Debit card<input type = "radio" name = "payment"></label>
+										
+										</div>
+									
+									</fieldset>
+								
+								</div>
+							
+							</div>
+							
+							
+							<div class = "col-lg-3 offset-sm-0 mt-50">
+							
+							
+								<div class = "category">
+						
+							<fieldset>
+							
+								
+							
+								<div>
+								
+									<select name = "select" id = "expenseCategory">
+										
+										
+											<option value = "1">Food</option>
+											<option value = "2">Flat/Home</option>
+											<option value = "3">Transport</option>
+											<option value = "4">Telecomunication</option>
+											<option value = "5">Health</option>
+											<option value = "6">Clothes</option>
+											<option value = "7">Higiene</option>
+											<option value = "8">Childeren</option>
+											<option value = "9" selected>Education</option>
+											<option value = "10">Books</option>
+											<option value = "11">Savings</option>
+											<option value = "12">Pension</option>
+											<option value = "13">Debts to pay</option>
+											<option value = "14">Donations</option>
+											<option value = "15">Trip</option>
+											
+									
+									</select>
+								
+								</div>
+							
+							
+							
+							</fieldset>
+			
+						
+						</div>
+							
+							
+							</div>
+							
+							
+							
+							
+							<div class = "col-lg-3 mt-50">
+							
+								<div class = "comment">
+								
+									<textarea name ="comment" id = "comment" rows = "4" cols = "23" maxlength = "50" minlength = "10" placeholder="Komentarz"></textarea>
+								
+								</div>
+				
+							</div>
+							
+							
+							<div class = "col-lg-3 offset-lg-2 mt-50">
+							
+								<div class = "Confirmation">
+						
+									<div class = "button">
+									
+										<input type = "submit" value = "Potwierdź">
+									
+									</div>
+						
+								</div>
+							
+							</div>
+							
+							
+							<div class = "col-lg-3 mt-50 offset-lg-2">
+							
+								<div class = "Cancel">
+						
+									<div class = "button">
+									
+										<input type = "submit" value = "Anuluj">
+									
+									</div>
+						
+								</div>
+							
+							</div>
+							
+							
+						
+						</div>
+					
+					</div>
+				
+				
+				</section>
+			
+			</main>
+			
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

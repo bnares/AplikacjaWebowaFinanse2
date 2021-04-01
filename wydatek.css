@@ -1,0 +1,149 @@
+
+body
+{
+	
+	
+
+background-image: url("img/bck3.jpg");
+background-color:gray;
+width: 100%;
+height: 100%;
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+
+
+}
+
+
+.mt-50
+{
+margin-top:50px;	
+	
+}
+
+
+.mt
+{
+margin-top:130px;	
+	
+}
+
+
+input[type = number],
+input[type=date],
+select,
+textarea
+{
+	font-size:20px;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	background-color: skyblue;
+	height:50px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom:5px;
+	
+}
+
+input[type = number]:hover,
+input[type = date]:hover,
+select:hover,
+textarea:hover
+{
+
+background-color: lightgrey;	
+	
+}
+
+
+
+input[type = number]:focus,
+input[type = date]:focus,
+select:focus,
+textarea:focus
+{
+box-shadow: 0px 0px 10px 6px rgba(204,204,204,0.9);	
+}
+
+
+
+
+input[type = submit]
+{
+	font-size:20px;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	background-color: #36b03c;
+	height:50px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom:5px;
+	
+}
+
+
+input[type = submit]:hover
+{
+background-color: #37b93d;	
+	
+}
+
+
+input[type = submit]:focus
+{
+box-shadow: 0px 0px 10px 3px rgba(204,204,204,0.9);	
+}
+
+input[type = radio]:hover
+{
+cursor:pointer;	
+}
+
+
+#comment
+{
+resize:none;	
+}
+
+
+.platnosc
+{
+	background-color: skyblue;
+	opacity:0.8;
+	
+}
+
+
+.platnosc:hover label
+{
+	cursor:pointer;
+	
+}
+
+.legend
+{
+text-decoration: underline;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

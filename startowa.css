@@ -1,0 +1,161 @@
+
+body
+{
+background-image: url("img/oriental.png");	
+}
+
+
+.container
+{
+padding:0;
+margin:0;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+
+
+.test
+{
+text-align:center;	
+
+}
+
+
+
+header
+{
+letter-spacing:2px;
+text-transform: uppercase;
+color: #3596b5;
+font-size: 60px;
+padding-top:50px;
+margin-bottom:30px;
+transition: all 1s ease-out;
+width:380px;
+margin-left:auto;
+margin-right:auto;
+}
+
+header:hover
+{
+color: #fff;
+font-size: 130%;
+transform: rotate(5deg) translate(15px);
+cursor:pointer;
+}
+
+
+
+h1
+{
+margin-left:auto;
+margin-right:auto;
+margin:0;
+text-align:center;
+}
+
+
+#text 
+{
+background-color: floralwhite;
+text-align:justify;
+}
+
+.padding-0
+{
+padding-left:0;
+padding-right:0;
+}
+
+
+
+
+
+#content 
+{
+margin-left:auto;
+margin-right:auto;
+background-color:#dfdfdf;
+	
+}
+
+#content img 
+{
+width: 100%;
+height: auto;
+background-size: contain;
+}
+
+#description
+{
+width:70%;
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+position:relative;
+top:10px;
+transition: all 0.25s ease-out;
+}
+
+
+#description:hover
+{
+	
+color:skyblue;
+font-weight:700;
+width:90%
+}
+
+
+a 
+{
+text-decoration: none;	
+}
+
+a:visited
+{
+color: skyblue;	
+}
+
+.row
+{
+box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.8)	
+	
+}
+
+
+input[type = submit]
+{
+	font-size:20px;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	background-color: #36b03c;
+	height:50px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom:5px;
+	
+}
+
+
+input[type = submit]:hover
+{
+background-color: #37b93d;	
+	
+}
+
+
+input[type = submit]:focus
+{
+box-shadow: 0px 0px 10px 3px rgba(204,204,204,0.9);	
+}
+
+
+
