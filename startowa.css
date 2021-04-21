@@ -72,10 +72,13 @@ padding-right:0;
 }
 
 
+.button
+{
+	background-color:#dfdfdf;
+}
 
 
-
-#content 
+.content 
 {
 margin-left:auto;
 margin-right:auto;
@@ -83,7 +86,7 @@ background-color:#dfdfdf;
 	
 }
 
-#content img 
+.content img 
 {
 width: 100%;
 height: auto;

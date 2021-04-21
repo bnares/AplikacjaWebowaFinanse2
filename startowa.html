@@ -27,7 +27,7 @@
 
 <main>
 
-	<article class = "test">
+	<div class = "test">
 	
 		<div class = "container">
 		
@@ -37,14 +37,15 @@
 			
 			</header>
 			
-			<section class = "content">
 			
+			<article class ="content-main">
 			
+				<h2>  </h2>
 				<div class = "row no-gutters">
 				
 					<div class = "col-lg-6 padding-0">
 					
-						<div id = "content">
+						<div class = "content">
 							<img class = "img-fluid" src = "img/komputer.jpg" alt = "komputer">
 						
 						</div>
@@ -60,9 +61,12 @@
 					
 					<div class = "col-lg-6 padding-0">
 					
-						<div id = "content">
+						<div class = "button">
 						
-							<label><a href = "rejestracja.html"><input type = "submit" value = "rejestracja"></a></label>						
+							
+							<label> 
+							<input onClick="window.location.href='rejestracja.html'" type="submit" Value="rejestracja">
+							</label>
 						
 						</div>
 						
@@ -70,9 +74,14 @@
 						
 						
 					<div class = "col-lg-6 padding-0">
-						<div id = "content">
+						<div class = "button">
 						
-							<label><a href = "logowanie.html"><input type = "submit" value = "logowanie"></a></label>						
+							<label>
+							<input onClick="window.location.href='logowanie.html'" type="submit" Value="logowanie">
+							
+							</label>
+
+									
 						
 						</div>
 						
@@ -80,12 +89,14 @@
 					
 				
 				</div>
+				
 			
-			</section>
+			</article>
+			
 		
 		</div>
 	
-	</article>
+	</div>
 
 
 
