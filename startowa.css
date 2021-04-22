@@ -26,13 +26,24 @@ text-align:center;
 
 
 
+h2
+{
+
+
+
+letter-spacing:3px;
+font-size: 30px;
+color:white;
+}
+
+
 header
 {
 letter-spacing:2px;
 text-transform: uppercase;
 color: #3596b5;
 font-size: 60px;
-padding-top:50px;
+padding-top:10px;
 margin-bottom:30px;
 transition: all 1s ease-out;
 width:380px;

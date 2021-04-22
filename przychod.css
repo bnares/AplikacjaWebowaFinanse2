@@ -20,21 +20,30 @@ h2
 margin-left:auto;
 margin-right:auto;
 text-align:center;
-width:300px;
+width:500px;
 letter-spacing:3px;
+font-size: 30px;
 }
 
+.title
+{
+
+color: skyblue;
+text-align:center;
+font-size: 10px;
+	
+}
 
 .mt-50
 {
-margin-top:50px;	
+margin-top:30px;	
 	
 }
 
 
 .mt
 {
-margin-top:80px;	
+margin-top:40px;	
 	
 }
 
